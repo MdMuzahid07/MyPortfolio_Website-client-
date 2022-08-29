@@ -32,11 +32,11 @@ const Navbar = ({ children }) => {
                         </li>
 
                         <li>
-                            <Link to="/services" href="/#" className='text-white'>Services</Link>
+                            <Link to="/portfolio" href="/#" className='text-white'>Portfolio</Link>
                         </li>
 
                         <li>
-                            <Link to="/portfolio" href="/#" className='text-white'>Portfolio</Link>
+                            <Link to="/blog" href="/#" className='text-white'>Blog</Link>
                         </li>
 
                         <li>
