@@ -1,7 +1,17 @@
+import { Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./pages/Home";
+
 function App() {
   return (
     <div>
-      <h2 className="text-2xl">Hello World!</h2>
+      <Navbar>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+        <Footer />
+      </Navbar>
     </div>
   );
 }
