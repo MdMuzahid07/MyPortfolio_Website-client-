@@ -5,14 +5,14 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <div>
+    <main>
       <Navbar>
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
         <Footer />
       </Navbar>
-    </div>
+    </main>
   );
 }
 export default App;
