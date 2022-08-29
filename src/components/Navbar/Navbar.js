@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Footer from '../Footer/Footer';
 import Social_icons from '../social_icons/Social_icons';
 
@@ -23,23 +24,23 @@ const Navbar = ({ children }) => {
                         </li>
 
                         <li>
-                            <a href="/#" className='text-white'>Home</a>
+                            <Link to="/" href="/#" className='text-white'>Home</Link>
                         </li>
 
                         <li>
-                            <a href="/#" className='text-white'>About</a>
+                            <Link to="/about" href="/#" className='text-white'>About</Link>
                         </li>
 
                         <li>
-                            <a href="/#" className='text-white'>Services</a>
+                            <Link to="/services" href="/#" className='text-white'>Services</Link>
                         </li>
 
                         <li>
-                            <a href="/#" className='text-white'>Portfolio</a>
+                            <Link to="/portfolio" href="/#" className='text-white'>Portfolio</Link>
                         </li>
 
                         <li>
-                            <a href="/#" className='text-white'>Contact</a>
+                            <Link to="/contact" href="/#" className='text-white'>Contact</Link>
                         </li>
 
                         <li className='absolute bottom-20'>
