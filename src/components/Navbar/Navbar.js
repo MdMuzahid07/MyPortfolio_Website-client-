@@ -17,8 +17,8 @@ const Navbar = ({ children }) => {
                     <label for="my-drawer-2" className="drawer-overlay" />
                     <ul className="menu overflow-y-auto w-80 text-base-content  bg-primary font-bold uppercase border-r border-dashed border-secondary">
                         {/* <!-- Sidebar content here --> */}
-                        <li className='text-5xl text-white font-bold capitalize my-10'>
-                            <h2>Muzahid</h2>
+                        <li>
+                            <h2 className='Profile_Name'>Muzahid</h2>
                         </li>
 
                         <li>
