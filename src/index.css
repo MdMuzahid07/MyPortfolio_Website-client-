@@ -18,8 +18,7 @@ body {
   font-size: 4rem;
   font-weight: bold;
   text-transform: capitalize;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin: 2rem 0;
   font-family: 'roboto';
   background-image: url('https://img.freepik.com/free-photo/vestrahorn-mountains-stokksnes-iceland_335224-667.jpg?w=996&t=st=1661753683~exp=1661754283~hmac=ce18341ec72db05ed52307833c7964b161ceed1da6788f3d295dc0ba');
   background-size: cover;

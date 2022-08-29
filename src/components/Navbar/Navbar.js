@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from '../Footer/Footer';
+import Social_icons from '../social_icons/Social_icons';
 
 const Navbar = ({ children }) => {
     return (
@@ -41,6 +42,9 @@ const Navbar = ({ children }) => {
                             <a href="/#" className='text-white'>Contact</a>
                         </li>
 
+                        <li className='absolute bottom-20'>
+                            <Social_icons />
+                        </li>
 
                         <li className='absolute bottom-5 hidden md:block'>
                             <Footer />
