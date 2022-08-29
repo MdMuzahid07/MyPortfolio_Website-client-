@@ -47,7 +47,7 @@ const Navbar = ({ children }) => {
                             <Social_icons />
                         </li>
 
-                        <li className='absolute bottom-5 hidden md:block'>
+                        <li className='absolute bottom-5'>
                             <Footer />
                         </li>
                     </ul>

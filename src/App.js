@@ -22,7 +22,6 @@ function App() {
           <Route path="/terms" element={<Terms_and_conditions />} />
           <Route path="/error" element={<Error />} />
         </Routes>
-        <Footer />
       </Navbar>
     </main>
   );
