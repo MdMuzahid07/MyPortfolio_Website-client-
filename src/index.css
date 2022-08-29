@@ -57,5 +57,9 @@ body {
 }
 
 .shadow_white {
-  box-shadow: 0px 0px 7px 0px red;
+  box-shadow: 0px 0px 10px 0px rgb(255, 255, 255);
+}
+
+.shadow_white:hover {
+  box-shadow: 0px 0px 10px 0px rgb(255, 0, 64);
 }
