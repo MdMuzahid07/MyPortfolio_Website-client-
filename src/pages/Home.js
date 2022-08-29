@@ -8,12 +8,12 @@ const Home = () => {
                 <div>
                     <img src="https://placeimg.com/400/400/arch" alt="profile_img" className='profile_img rounded-lg' />
                 </div>
-                <div className="text-secondary p-4 relative">
-                    <h2 className='text-xl font-bold my-10'>console.log( hello world! )</h2>
-                    <h2 className='text-3xl'>I'm</h2>
+                <div className="text-secondary p-4 mt-20">
+                    <h2 className='text-xl font-bold my-7'>console.log( hello world! )</h2>
+                    <h2 className='text-3xl mt-20'>I'm</h2>
                     <h2 className='text-4xl font-bold my-4'>Md. Muzahid</h2>
                     <TypingText />
-                    <div className='absolute bottom-32 left-5'>
+                    <div className='mt-10'>
                         <button className="btn btn-wide btn-outline btn-secondary ">Download Resume</button>
                     </div>
                 </div>
