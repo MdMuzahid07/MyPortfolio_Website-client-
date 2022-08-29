@@ -1,4 +1,5 @@
 import React from 'react';
+import TypingText from '../components/Home/TypingText';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
                     <h2 className='text-xl font-bold my-10'>console.log( hello world! )</h2>
                     <h2 className='text-3xl'>I'm</h2>
                     <h2 className='text-4xl font-bold my-4'>Md. Muzahid</h2>
+                    <TypingText />
                     <div>
                         <button className="btn btn-wide btn-outline btn-secondary mt-7">Download Resume</button>
                     </div>
