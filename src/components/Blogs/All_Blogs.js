@@ -2,9 +2,11 @@ import React from 'react';
 
 const All_Blogs = () => {
     return (
-        <div className='bg-primary p-5 rounded'>
-            <h2>All Blogs</h2>
-        </div>
+        <section className='bg-primary p-5 rounded flex justify-center items-center min-h-screen'>
+            <div>
+                <h2>All Blogs</h2>
+            </div>
+        </section>
     );
 };
 
