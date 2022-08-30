@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Review = () => {
     var settings = {
-        // dots: true,
         infinite: false,
         speed: 500,
         slidesToShow: 3,

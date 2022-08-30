@@ -43,6 +43,10 @@ const Navbar = ({ children }) => {
                             <Link to="/contact" href="/#" className='text-white'>Contact</Link>
                         </li>
 
+                        <li className='mt-10 px-4'>
+                            <button className='btn btn-width btn-secondary btn-outline rounded'>Hire Me</button>
+                        </li>
+
                         <li className='absolute bottom-20'>
                             <Social_icons />
                         </li>
