@@ -4,13 +4,13 @@ const About_Me = () => {
     return (
         <section className='text-secondary flex justify-center items-center min-h-screen'>
             <div>
-                <h2 className='text-3xl font-bold underline mb-7'>About Me</h2>
+                <h2 className='text-3xl font-bold underline custom-m-b-5'>About Me</h2>
                 <div>
                     <div className="grid lg:grid-cols-2 bg-primary text-secondary rounded-none w-full mt-7">
                         <div>
                             <img src="https://img.freepik.com/free-vector/men-success-laptop-relieve-work-from-home-computer-great_10045-646.jpg?w=740&t=st=1661782352~exp=1661782952~hmac=dcf5f61124dc5f7f0ae495ffbb12ee7ea51257006982d566699db1c4fed27242" alt="profile_image" className='about_img border-2 border-secondary rounded' />
                         </div>
-                        <div className="text-secondary p-4">
+                        <div className="text-secondary p-5">
                             <h2 className='text-xl font-bold my-10'>console.log( hello world! )</h2>
                             <h2 className='text-3xl mt-7'>Hi there</h2>
                             <p className='text-md font-bold mt-4'>{`

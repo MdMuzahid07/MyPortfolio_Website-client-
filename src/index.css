@@ -68,3 +68,40 @@ body {
 .shadow_red:hover {
   box-shadow: 0px 0px 20px 0px rgb(255, 0, 64);
 }
+
+.custom-m-h-t-5 {
+  margin-top: 5rem;
+}
+
+.custom-m-h-t-10 {
+  margin-top: 10rem;
+}
+
+.custom-m-h-t-15 {
+  margin-top: 15rem;
+}
+
+.custom-m-h-t-20 {
+  margin-top: 20rem;
+}
+
+.custom-m-b-5 {
+  margin-bottom: 5rem;
+}
+
+.custom-m-b-10 {
+  margin-bottom: 10rem;
+}
+
+.custom-m-b-15 {
+  margin-bottom: 15rem;
+}
+
+.custom-m-b-20 {
+  margin-bottom: 20rem;
+}
+
+
+.transition {
+  transition: all 0.2s linear;
+}
