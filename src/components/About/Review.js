@@ -6,12 +6,15 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Review = () => {
     var settings = {
-        dots: true,
+        // dots: true,
         infinite: false,
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 3,
         initialSlide: 0,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        cssEase: "linear",
         responsive: [
             {
                 breakpoint: 1024,
@@ -40,15 +43,14 @@ const Review = () => {
         ]
     };
     return (
-        <section className='text-secondary my-20'>
+        <section className='text-secondary my-20 z-20'>
             <h2 className='text-3xl font-bold underline mb-7'>Testimonials</h2>
-            <Slider {...settings}>
+            <Slider{...settings} arrows={false}>
 
                 <div className='px-2 bg-accent'>
                     <div class="card shadow-xl rounded">
-                        <div class="card-body  shadow_red bg-primary relative">
-                            <h2 class="card-title">Shoes!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-body h-32  shadow_red bg-primary relative">
+                            <p className='text-xs font-bold'>If a dog chews shoes whose shoes does he choose?</p>
                             <span className='absolute h-10 w-10 bg-primary -bottom-5 inset-x-1/2  rotate-45 -ml-5'></span>
                         </div>
                         <div className='mt-11 flex justify-center'>
@@ -70,9 +72,8 @@ const Review = () => {
 
                 <div className='px-2 bg-accent'>
                     <div class="card shadow-xl rounded">
-                        <div class="card-body  shadow_red bg-primary relative">
-                            <h2 class="card-title">Shoes!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-body h-32  shadow_red bg-primary relative">
+                            <p className='text-xs font-bold'>If a dog chews shoes whose shoes does he choose?</p>
                             <span className='absolute h-10 w-10 bg-primary -bottom-5 inset-x-1/2  rotate-45 -ml-5'></span>
                         </div>
                         <div className='mt-11 flex justify-center'>
@@ -94,9 +95,8 @@ const Review = () => {
 
                 <div className='px-2 bg-accent'>
                     <div class="card shadow-xl rounded">
-                        <div class="card-body  shadow_red bg-primary relative">
-                            <h2 class="card-title">Shoes!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-body h-32  shadow_red bg-primary relative">
+                            <p className='text-xs font-bold'>If a dog chews shoes whose shoes does he choose?</p>
                             <span className='absolute h-10 w-10 bg-primary -bottom-5 inset-x-1/2  rotate-45 -ml-5'></span>
                         </div>
                         <div className='mt-11 flex justify-center'>
@@ -118,9 +118,74 @@ const Review = () => {
 
                 <div className='px-2 bg-accent'>
                     <div class="card shadow-xl rounded">
-                        <div class="card-body  shadow_red bg-primary relative">
-                            <h2 class="card-title">Shoes!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-body h-32  shadow_red bg-primary relative">
+                            <p className='text-xs font-bold'>If a dog chews shoes whose shoes does he choose?</p>
+                            <span className='absolute h-10 w-10 bg-primary -bottom-5 inset-x-1/2  rotate-45 -ml-5'></span>
+                        </div>
+                        <div className='mt-11 flex justify-center'>
+                            <div>
+                                <div class="avatar">
+                                    <div class="w-20 rounded-full ring ring-secondary ring-offset-base-100 ring-offset-2">
+                                        <img src="https://placeimg.com/192/192/people" alt="reviewer_image" />
+                                    </div>
+                                </div>
+                                <div className='font-bold text-center'>
+                                    <h2 className='text-xl'>Name</h2>
+                                    <p>title</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='px-2 bg-accent'>
+                    <div class="card shadow-xl rounded">
+                        <div class="card-body h-32  shadow_red bg-primary relative">
+                            <p className='text-xs font-bold'>If a dog chews shoes whose shoes does he choose?</p>
+                            <span className='absolute h-10 w-10 bg-primary -bottom-5 inset-x-1/2  rotate-45 -ml-5'></span>
+                        </div>
+                        <div className='mt-11 flex justify-center'>
+                            <div>
+                                <div class="avatar">
+                                    <div class="w-20 rounded-full ring ring-secondary ring-offset-base-100 ring-offset-2">
+                                        <img src="https://placeimg.com/192/192/people" alt="reviewer_image" />
+                                    </div>
+                                </div>
+                                <div className='font-bold text-center'>
+                                    <h2 className='text-xl'>Name</h2>
+                                    <p>title</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='px-2 bg-accent'>
+                    <div class="card shadow-xl rounded">
+                        <div class="card-body h-32  shadow_red bg-primary relative">
+                            <p className='text-xs font-bold'>If a dog chews shoes whose shoes does he choose?</p>
+                            <span className='absolute h-10 w-10 bg-primary -bottom-5 inset-x-1/2  rotate-45 -ml-5'></span>
+                        </div>
+                        <div className='mt-11 flex justify-center'>
+                            <div>
+                                <div class="avatar">
+                                    <div class="w-20 rounded-full ring ring-secondary ring-offset-base-100 ring-offset-2">
+                                        <img src="https://placeimg.com/192/192/people" alt="reviewer_image" />
+                                    </div>
+                                </div>
+                                <div className='font-bold text-center'>
+                                    <h2 className='text-xl'>Name</h2>
+                                    <p>title</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='px-2 bg-accent'>
+                    <div class="card shadow-xl rounded">
+                        <div class="card-body h-32  shadow_red bg-primary relative">
+                            <p className='text-xs font-bold'>If a dog chews shoes whose shoes does he choose?</p>
                             <span className='absolute h-10 w-10 bg-primary -bottom-5 inset-x-1/2  rotate-45 -ml-5'></span>
                         </div>
                         <div className='mt-11 flex justify-center'>
