@@ -44,28 +44,26 @@ const Review = () => {
             <h2 className='text-3xl font-bold underline mb-7'>Testimonials</h2>
             <Slider {...settings}>
                 <div>
-                    <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum reprehenderit quod cum beatae. Dolore aliquid illo repellendus? Quibusdam, alias expedita.</h2>
-                </div>
-                <div>
-                    <h3>2</h3>
-                </div>
-                <div>
-                    <h3>3</h3>
-                </div>
-                <div>
-                    <h3>4</h3>
-                </div>
-                <div>
-                    <h3>5</h3>
-                </div>
-                <div>
-                    <h3>6</h3>
-                </div>
-                <div>
-                    <h3>7</h3>
-                </div>
-                <div>
-                    <h3>8</h3>
+                    <div class="card w-96 shadow-xl rounded">
+                        <div class="card-body  shadow_red bg-primary relative">
+                            <h2 class="card-title">Shoes!</h2>
+                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                            <span className='absolute h-10 w-10 bg-primary -bottom-5 inset-x-1/2  rotate-45 -ml-5'></span>
+                        </div>
+                        <div className='mt-11 flex justify-center'>
+                            <div>
+                                <div class="avatar">
+                                    <div class="w-20 rounded-full ring ring-secondary ring-offset-base-100 ring-offset-2">
+                                        <img src="https://placeimg.com/192/192/people" alt="reviewer_image" />
+                                    </div>
+                                </div>
+                                <div className='font-bold text-center'>
+                                    <h2 className='text-xl'>Name</h2>
+                                    <p>title</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </Slider>
         </div>
