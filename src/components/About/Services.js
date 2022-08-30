@@ -93,7 +93,7 @@ const Services = () => {
                         </figure>
                         <div className="card-body text-center">
                             <h2 className="text-2xl">React Native</h2>
-                            <p>Cross platform mobile app using react native</p>
+                            <p>Cross plathtmlForm mobile app using react native</p>
                         </div>
                     </div>
 
