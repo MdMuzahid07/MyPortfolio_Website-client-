@@ -48,7 +48,7 @@ const Review = () => {
             <Slider{...settings} arrows={false}>
 
                 <div className='px-2 bg-accent'>
-                    <div class="card shadow-xl rounded">
+                    <div class="card rounded">
                         <div class="card-body h-32  shadow_red bg-primary relative">
                             <p className='text-xs font-bold'>If a dog chews shoes whose shoes does he choose?</p>
                             <span className='absolute h-10 w-10 bg-primary -bottom-5 inset-x-1/2  rotate-45 -ml-5'></span>
@@ -71,7 +71,7 @@ const Review = () => {
 
 
                 <div className='px-2 bg-accent'>
-                    <div class="card shadow-xl rounded">
+                    <div class="card rounded">
                         <div class="card-body h-32  shadow_red bg-primary relative">
                             <p className='text-xs font-bold'>If a dog chews shoes whose shoes does he choose?</p>
                             <span className='absolute h-10 w-10 bg-primary -bottom-5 inset-x-1/2  rotate-45 -ml-5'></span>
@@ -94,7 +94,7 @@ const Review = () => {
 
 
                 <div className='px-2 bg-accent'>
-                    <div class="card shadow-xl rounded">
+                    <div class="card rounded">
                         <div class="card-body h-32  shadow_red bg-primary relative">
                             <p className='text-xs font-bold'>If a dog chews shoes whose shoes does he choose?</p>
                             <span className='absolute h-10 w-10 bg-primary -bottom-5 inset-x-1/2  rotate-45 -ml-5'></span>
@@ -117,7 +117,7 @@ const Review = () => {
 
 
                 <div className='px-2 bg-accent'>
-                    <div class="card shadow-xl rounded">
+                    <div class="card rounded">
                         <div class="card-body h-32  shadow_red bg-primary relative">
                             <p className='text-xs font-bold'>If a dog chews shoes whose shoes does he choose?</p>
                             <span className='absolute h-10 w-10 bg-primary -bottom-5 inset-x-1/2  rotate-45 -ml-5'></span>
@@ -139,7 +139,7 @@ const Review = () => {
                 </div>
 
                 <div className='px-2 bg-accent'>
-                    <div class="card shadow-xl rounded">
+                    <div class="card rounded">
                         <div class="card-body h-32  shadow_red bg-primary relative">
                             <p className='text-xs font-bold'>If a dog chews shoes whose shoes does he choose?</p>
                             <span className='absolute h-10 w-10 bg-primary -bottom-5 inset-x-1/2  rotate-45 -ml-5'></span>
@@ -161,7 +161,7 @@ const Review = () => {
                 </div>
 
                 <div className='px-2 bg-accent'>
-                    <div class="card shadow-xl rounded">
+                    <div class="card rounded">
                         <div class="card-body h-32  shadow_red bg-primary relative">
                             <p className='text-xs font-bold'>If a dog chews shoes whose shoes does he choose?</p>
                             <span className='absolute h-10 w-10 bg-primary -bottom-5 inset-x-1/2  rotate-45 -ml-5'></span>
@@ -183,7 +183,7 @@ const Review = () => {
                 </div>
 
                 <div className='px-2 bg-accent'>
-                    <div class="card shadow-xl rounded">
+                    <div class="card rounded">
                         <div class="card-body h-32  shadow_red bg-primary relative">
                             <p className='text-xs font-bold'>If a dog chews shoes whose shoes does he choose?</p>
                             <span className='absolute h-10 w-10 bg-primary -bottom-5 inset-x-1/2  rotate-45 -ml-5'></span>
