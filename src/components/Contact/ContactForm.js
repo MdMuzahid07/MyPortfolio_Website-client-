@@ -14,7 +14,7 @@ const ContactForm = () => {
                         <Form />
                         <Info />
                     </div>
-                    <div className="mt-20 mb-10">
+                    <div className="mt-32 md:mt-20 mb-10">
                         <Map />
                     </div>
                 </div>

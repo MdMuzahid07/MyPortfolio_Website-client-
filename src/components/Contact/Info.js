@@ -2,7 +2,7 @@ import React from 'react';
 
 const Info = () => {
     return (
-        <section>
+        <section className='mt-20 md:mt-0'>
             <h2 className='text-xl font-bold'>contact info</h2>
             <p>Fell free for any query</p>
 
