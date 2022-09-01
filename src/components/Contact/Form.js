@@ -16,7 +16,7 @@ const Form = () => {
             <input type="text" placeholder="name" {...register("name", { required: true })} className="input input-accent bg-accent w-full rounded" />
             <input type="email" placeholder="email" {...register("email", { required: true })} className="input input-accent bg-accent w-full rounded my-2" />
             <input type="text" placeholder="subject" {...register("subject", { required: true })} className="input input-accent bg-accent w-full rounded" />
-            <textarea type="message" placeholder="message" {...register("message", { required: true })} rows="7" cols="33" className="textarea textarea-accent bg-accent w-full rounded my-2" />
+            <textarea type="message" placeholder="message" {...register("message", { required: true })} rows="10" cols="33" className="textarea textarea-accent text-xs bg-accent w-full rounded my-2" />
 
             {/* errors will return when field validation fails  */}
             {errors.exampleRequired && <span>This field is required</span>}
