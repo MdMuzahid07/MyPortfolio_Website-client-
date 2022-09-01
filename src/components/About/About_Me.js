@@ -9,7 +9,7 @@ const About_Me = () => {
                 <div>
                     <div className="grid lg:grid-cols-2 bg-primary text-secondary rounded-none w-full mt-7">
                         <div>
-                            <img src="https://i.ibb.co/CttM5rX/Md-Muzahid.png" alt="profile_image" className='about_img border-2 border-secondary rounded bg-neutral' />
+                            <img src="https://i.ibb.co/CttM5rX/Md-Muzahid.png" alt="profile_image" className='about_img border-2 border-secondary rounded bg-neutral opacity-50' />
                         </div>
                         <div className="text-secondary p-5">
                             <h2 className='text-xl font-bold my-10'>console.log( hello world! )</h2>
