@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const About_Me = () => {
     return (
@@ -8,7 +9,7 @@ const About_Me = () => {
                 <div>
                     <div className="grid lg:grid-cols-2 bg-primary text-secondary rounded-none w-full mt-7">
                         <div>
-                            <img src="https://img.freepik.com/free-vector/men-success-laptop-relieve-work-from-home-computer-great_10045-646.jpg?w=740&t=st=1661782352~exp=1661782952~hmac=dcf5f61124dc5f7f0ae495ffbb12ee7ea51257006982d566699db1c4fed27242" alt="profile_image" className='about_img border-2 border-secondary rounded' />
+                            <img src="https://i.ibb.co/CttM5rX/Md-Muzahid.png" alt="profile_image" className='about_img border-2 border-secondary rounded bg-neutral' />
                         </div>
                         <div className="text-secondary p-5">
                             <h2 className='text-xl font-bold my-10'>console.log( hello world! )</h2>
@@ -25,7 +26,7 @@ const About_Me = () => {
                                 <p>Freelance : Available</p>
                             </div>
                             <div className='mt-10'>
-                                <button className="btn btn-wide btn-outline btn-secondary ">Hire Me</button>
+                                <Link to='/contact' className="btn btn-wide btn-outline btn-secondary ">Hire Me</Link>
                             </div>
                         </div>
                     </div>
