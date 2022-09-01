@@ -44,7 +44,7 @@ const Navbar = ({ children }) => {
                         </li>
 
                         <li className='absolute bottom-40 px-4 block'>
-                            <button className='btn btn-secondary btn-outline rounded'>Hire Me</button>
+                            <Link to='/contact' className='btn btn-secondary btn-outline rounded'>Hire Me</Link>
                         </li>
 
                         <li className='absolute bottom-20'>

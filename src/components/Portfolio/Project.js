@@ -12,7 +12,7 @@ const Project = ({ app }) => {
             </figure>
             <div class="card-body">
                 <div>
-                    <h2 className="card-title">{projectName}</h2>
+                    <h2 className="text-lg font-bold">{projectName}</h2>
                     <div className='text-xs'>
                         <p>Title: E-commerce website</p>
                         <p>Technology: {technology}</p>
