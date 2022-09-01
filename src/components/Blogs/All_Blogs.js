@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { toast } from 'react-toastify'
 
 const All_Blogs = () => {
     const clickHandler = () => {
-        alert('button in not functional, no blog available!');
+        toast.error("This button not functional, there are no blogs available!");
     }
     return (
         <section className='bg-primary p-5 rounded flex justify-center items-center min-h-screen'>
@@ -18,7 +19,7 @@ const All_Blogs = () => {
                             <h2 className="card-title">title</h2>
                         </div>
                         <div class="card-actions absolute -left-14 hover:left-2 transition bottom-5">
-                            <Link to="/" className="btn btn-secondary btn-outline rounded">Read Blog</Link>
+                            <button onClick={clickHandler} className="btn btn-secondary btn-outline rounded">Read Blog</button>
                         </div>
                     </div>
                 </div>
