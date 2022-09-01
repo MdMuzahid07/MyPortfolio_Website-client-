@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-import Project from "./components/Portfolio/Project";
+import ProjectInfo from "./components/Portfolio/ProjectInfo";
 import Toast_Container from "./components/ToastContainer/Toast_Container";
 // import Projects from "./components/Portfolio/Projects";
 import About from "./pages/About";
@@ -21,7 +21,7 @@ function App() {
           <Route path="/blog" element={<Blogs />} />
           <Route path="/portfolio" element={<Portfolio />} />
           {/* <Route path="/projects" element={<Projects />} /> */}
-          <Route path="/project" element={<Project />} />
+          <Route path="/project" element={<ProjectInfo />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/terms" element={<Terms_and_conditions />} />
           <Route path="/error" element={<Error />} />
