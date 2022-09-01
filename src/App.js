@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Project from "./components/Portfolio/Project";
+import Toast_Container from "./components/ToastContainer/Toast_Container";
 // import Projects from "./components/Portfolio/Projects";
 import About from "./pages/About";
 import Blogs from "./pages/Blogs";
@@ -26,6 +27,7 @@ function App() {
           <Route path="/error" element={<Error />} />
         </Routes>
       </Navbar>
+      <Toast_Container />
     </main>
   );
 }
