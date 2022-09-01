@@ -11,6 +11,7 @@ const Toast_Container = () => {
                 hideProgressBar={false}
                 newestOnTop={false}
                 closeOnClick
+                theme="dark"
                 rtl={false}
                 pauseOnFocusLoss
                 draggable
