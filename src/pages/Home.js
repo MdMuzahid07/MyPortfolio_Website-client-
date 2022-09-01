@@ -14,7 +14,7 @@ const Home = () => {
                     <h2 className='text-4xl font-bold my-4'>Md. Muzahid</h2>
                     <TypingText />
                     <div className='mt-10'>
-                        <button className="btn btn-wide btn-outline btn-secondary ">Download Resume</button>
+                        <a href="https://drive.google.com/file/d/1Fyqt2p_x38PG4oqeFxEB4b5nek6gNz3Q/view?usp=sharing" target="_blank" rel="noreferrer" className="btn btn-wide btn-outline btn-secondary ">Download Resume</a>
                     </div>
                 </div>
             </div>
