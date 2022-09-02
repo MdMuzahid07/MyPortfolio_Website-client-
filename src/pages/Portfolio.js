@@ -1,13 +1,18 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 import Projects from '../components/Portfolio/Projects';
 import useAxiosGet from '../hooks/useAxiosGet';
 
 
 const Portfolio = () => {
 
-    const url = `projects.json`;
+    const url = `http://localhost:5000/apps`;
 
-    const { projects } = useAxiosGet(url);
+    const { projects, error } = useAxiosGet(url);
+
+    if (error) {
+        toast.error(error);
+    }
 
 
     return (
