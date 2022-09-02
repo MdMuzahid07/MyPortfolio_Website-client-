@@ -1,24 +1,13 @@
 import React from 'react';
-import { useState } from 'react';
 import Projects from '../components/Portfolio/Projects';
-const axios = require('axios');
+import useAxiosGet from '../hooks/useAxiosGet';
 
 
 const Portfolio = () => {
-    const [projects, setProjects] = useState([]);
-
 
     const url = `projects.json`;
 
-    const getProjects = async () => {
-        await axios.get(url)
-            .then((response) => {
-                const allProjects = response.data;
-                setProjects(allProjects);
-            })
-            .catch((error) => console.error(error));
-    }
-    getProjects();
+    const { projects } = useAxiosGet(url);
 
 
     return (
