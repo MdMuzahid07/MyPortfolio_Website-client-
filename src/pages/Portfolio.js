@@ -6,7 +6,7 @@ import useAxiosGet from '../hooks/useAxiosGet';
 
 const Portfolio = () => {
 
-    const url = `http://localhost:5000/apps`;
+    const url = `https://my-portfolio-server-sable.vercel.app/apps`;
 
     const { projects, error } = useAxiosGet(url);
 

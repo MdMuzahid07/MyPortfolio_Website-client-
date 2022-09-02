@@ -10,7 +10,7 @@ const ProjectInfo = () => {
 
     const { id } = useParams();
 
-    const url = `http://localhost:5000/apps/${id}`;
+    const url = `https://my-portfolio-server-sable.vercel.app/apps/${id}`;
 
     const { projects, error } = useAxiosGet(url);
     const { projectName, technology, usedTechnology, adminDashboard, liveSite, clientCode, serverCode, description, snapshot1, snapshot2, snapshot3 } = projects;
