@@ -23,7 +23,7 @@ const ProjectInfo = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 2,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         initialSlide: 0,
         autoplay: true,
         autoplaySpeed: 5000,
