@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Terms_and_conditions = () => {
+const TermsAndConditions = () => {
     return (
         <div>
             <h2>this is terms and conditions page</h2>
@@ -8,4 +8,4 @@ const Terms_and_conditions = () => {
     );
 };
 
-export default Terms_and_conditions;
+export default TermsAndConditions;

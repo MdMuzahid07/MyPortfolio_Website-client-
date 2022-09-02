@@ -2,8 +2,15 @@ import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useParams } from 'react-router-dom';
 
 const ProjectInfo = () => {
+
+    const { ID } = useParams();
+
+    console.log(ID);
+
+
     var settings = {
         infinite: true,
         speed: 500,

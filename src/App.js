@@ -1,15 +1,14 @@
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import ProjectInfo from "./components/Portfolio/ProjectInfo";
-import Toast_Container from "./components/ToastContainer/Toast_Container";
-// import Projects from "./components/Portfolio/Projects";
+import CustomToastContainer from "./components/ToastContainer/CustomToastContainer";
 import About from "./pages/About";
 import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
-import Terms_and_conditions from "./pages/Terms_and_conditions";
+import TermsAndConditions from "./pages/TermsAndConditions";
 
 function App() {
   return (
@@ -20,14 +19,13 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blogs />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          {/* <Route path="/projects" element={<Projects />} /> */}
-          <Route path="/project" element={<ProjectInfo />} />
+          <Route path="/projectInfo/:ID" element={<ProjectInfo />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/terms" element={<Terms_and_conditions />} />
+          <Route path="/terms" element={<TermsAndConditions />} />
           <Route path="/error" element={<Error />} />
         </Routes>
       </Navbar>
-      <Toast_Container />
+      <CustomToastContainer />
     </main>
   );
 }

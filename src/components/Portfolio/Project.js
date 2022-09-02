@@ -1,10 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Project = ({ app }) => {
+    const { id, projectName, technology, logo } = app;
 
-    const { projectName, technology, logo } = app;
-    console.log(app)
+    const navigate = useNavigate();
+
+
+    // console.log(ID);
+
+    const handleOnClick = (id) => {
+        navigate(`/projectInfo/${id}`);
+    }
+
     return (
         <div class="card h-96 card-compact bg-primary rounded shadow_red">
             <figure>
@@ -19,7 +27,7 @@ const Project = ({ app }) => {
                     </div>
                 </div>
                 <div class="card-actions absolute -left-14 hover:left-2 transition bottom-5">
-                    <Link to="/project" className="btn btn-wide  btn-secondary btn-outline rounded">Project Details</Link>
+                    <button onClick={() => handleOnClick(id)} className="btn btn-wide  btn-secondary btn-outline rounded">Project Details</button>
                 </div>
             </div>
         </div>

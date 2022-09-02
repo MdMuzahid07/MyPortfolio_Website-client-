@@ -2,7 +2,7 @@ import React from 'react';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 
-const Toast_Container = () => {
+const CustomToastContainer = () => {
     return (
         <div>
             <ToastContainer
@@ -21,4 +21,4 @@ const Toast_Container = () => {
     );
 };
 
-export default Toast_Container;
+export default CustomToastContainer;
