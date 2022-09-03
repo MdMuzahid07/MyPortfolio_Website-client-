@@ -6,7 +6,7 @@ import useAxiosGet from '../hooks/useAxiosGet';
 
 const Portfolio = () => {
 
-    const url = `https://my-portfolio-server-sable.vercel.app/apps`;
+    const url = `https://fathomless-taiga-00602.herokuapp.com/apps`;
 
     const { projects, error } = useAxiosGet(url);
 
