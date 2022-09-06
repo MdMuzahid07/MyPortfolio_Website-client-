@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify'
 
 const All_Blogs = () => {
@@ -12,11 +11,11 @@ const All_Blogs = () => {
 
                 <div class="card h-80 card-compact bg-primary rounded shadow_red">
                     <figure>
-                        <img src="https://placeimg.com/400/225/arch" alt="blog_logo" />
+                        <img src="https://img.freepik.com/free-photo/online-message-blog-chat-communication-envelop-graphic-icon-concept_53876-139717.jpg?w=996&t=st=1662480477~exp=1662481077~hmac=3f8d2bbffc25fe08522e34ad49db1a5be02907be016a39fdfee65526c8b131d4" alt="blog_logo" />
                     </figure>
                     <div class="card-body">
                         <div>
-                            <h2 className="card-title">title</h2>
+                            <h2 className="card-title">Blog</h2>
                         </div>
                         <div class="card-actions absolute -left-14 hover:left-2 transition bottom-5">
                             <button onClick={clickHandler} className="btn btn-secondary btn-outline rounded">Read Blog</button>
@@ -26,26 +25,11 @@ const All_Blogs = () => {
 
                 <div class="card h-80 card-compact bg-primary rounded shadow_red">
                     <figure>
-                        <img src="https://placeimg.com/400/225/arch" alt="blog_logo" />
+                        <img src="https://img.freepik.com/free-photo/online-message-blog-chat-communication-envelop-graphic-icon-concept_53876-139717.jpg?w=996&t=st=1662480477~exp=1662481077~hmac=3f8d2bbffc25fe08522e34ad49db1a5be02907be016a39fdfee65526c8b131d4" alt="blog_logo" />
                     </figure>
                     <div class="card-body">
                         <div>
-                            <h2 className="card-title">title</h2>
-                        </div>
-                        <div class="card-actions absolute -left-14 hover:left-2 transition bottom-5">
-                            <button onClick={clickHandler} className="btn btn-secondary btn-outline rounded">Read Blog</button>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="card h-80 card-compact bg-primary rounded shadow_red">
-                    <figure>
-                        <img src="https://placeimg.com/400/225/arch" alt="blog_logo" />
-                    </figure>
-                    <div class="card-body">
-                        <div>
-                            <h2 className="card-title">title</h2>
+                            <h2 className="card-title">Blog</h2>
                         </div>
                         <div class="card-actions absolute -left-14 hover:left-2 transition bottom-5">
                             <button onClick={clickHandler} className="btn btn-secondary btn-outline rounded">Read Blog</button>
@@ -56,11 +40,11 @@ const All_Blogs = () => {
 
                 <div class="card h-80 card-compact bg-primary rounded shadow_red">
                     <figure>
-                        <img src="https://placeimg.com/400/225/arch" alt="blog_logo" />
+                        <img src="https://img.freepik.com/free-photo/online-message-blog-chat-communication-envelop-graphic-icon-concept_53876-139717.jpg?w=996&t=st=1662480477~exp=1662481077~hmac=3f8d2bbffc25fe08522e34ad49db1a5be02907be016a39fdfee65526c8b131d4" alt="blog_logo" />
                     </figure>
                     <div class="card-body">
                         <div>
-                            <h2 className="card-title">title</h2>
+                            <h2 className="card-title">Blog</h2>
                         </div>
                         <div class="card-actions absolute -left-14 hover:left-2 transition bottom-5">
                             <button onClick={clickHandler} className="btn btn-secondary btn-outline rounded">Read Blog</button>
@@ -71,11 +55,11 @@ const All_Blogs = () => {
 
                 <div class="card h-80 card-compact bg-primary rounded shadow_red">
                     <figure>
-                        <img src="https://placeimg.com/400/225/arch" alt="blog_logo" />
+                        <img src="https://img.freepik.com/free-photo/online-message-blog-chat-communication-envelop-graphic-icon-concept_53876-139717.jpg?w=996&t=st=1662480477~exp=1662481077~hmac=3f8d2bbffc25fe08522e34ad49db1a5be02907be016a39fdfee65526c8b131d4" alt="blog_logo" />
                     </figure>
                     <div class="card-body">
                         <div>
-                            <h2 className="card-title">title</h2>
+                            <h2 className="card-title">Blog</h2>
                         </div>
                         <div class="card-actions absolute -left-14 hover:left-2 transition bottom-5">
                             <button onClick={clickHandler} className="btn btn-secondary btn-outline rounded">Read Blog</button>
@@ -86,11 +70,11 @@ const All_Blogs = () => {
 
                 <div class="card h-80 card-compact bg-primary rounded shadow_red">
                     <figure>
-                        <img src="https://placeimg.com/400/225/arch" alt="blog_logo" />
+                        <img src="https://img.freepik.com/free-photo/online-message-blog-chat-communication-envelop-graphic-icon-concept_53876-139717.jpg?w=996&t=st=1662480477~exp=1662481077~hmac=3f8d2bbffc25fe08522e34ad49db1a5be02907be016a39fdfee65526c8b131d4" alt="blog_logo" />
                     </figure>
                     <div class="card-body">
                         <div>
-                            <h2 className="card-title">title</h2>
+                            <h2 className="card-title">Blog</h2>
                         </div>
                         <div class="card-actions absolute -left-14 hover:left-2 transition bottom-5">
                             <button onClick={clickHandler} className="btn btn-secondary btn-outline rounded">Read Blog</button>
@@ -101,11 +85,11 @@ const All_Blogs = () => {
 
                 <div class="card h-80 card-compact bg-primary rounded shadow_red">
                     <figure>
-                        <img src="https://placeimg.com/400/225/arch" alt="blog_logo" />
+                        <img src="https://img.freepik.com/free-photo/online-message-blog-chat-communication-envelop-graphic-icon-concept_53876-139717.jpg?w=996&t=st=1662480477~exp=1662481077~hmac=3f8d2bbffc25fe08522e34ad49db1a5be02907be016a39fdfee65526c8b131d4" alt="blog_logo" />
                     </figure>
                     <div class="card-body">
                         <div>
-                            <h2 className="card-title">title</h2>
+                            <h2 className="card-title">Blog</h2>
                         </div>
                         <div class="card-actions absolute -left-14 hover:left-2 transition bottom-5">
                             <button onClick={clickHandler} className="btn btn-secondary btn-outline rounded">Read Blog</button>
@@ -116,11 +100,11 @@ const All_Blogs = () => {
 
                 <div class="card h-80 card-compact bg-primary rounded shadow_red">
                     <figure>
-                        <img src="https://placeimg.com/400/225/arch" alt="blog_logo" />
+                        <img src="https://img.freepik.com/free-photo/online-message-blog-chat-communication-envelop-graphic-icon-concept_53876-139717.jpg?w=996&t=st=1662480477~exp=1662481077~hmac=3f8d2bbffc25fe08522e34ad49db1a5be02907be016a39fdfee65526c8b131d4" alt="blog_logo" />
                     </figure>
                     <div class="card-body">
                         <div>
-                            <h2 className="card-title">title</h2>
+                            <h2 className="card-title">Blog</h2>
                         </div>
                         <div class="card-actions absolute -left-14 hover:left-2 transition bottom-5">
                             <button onClick={clickHandler} className="btn btn-secondary btn-outline rounded">Read Blog</button>
@@ -131,11 +115,11 @@ const All_Blogs = () => {
 
                 <div class="card h-80 card-compact bg-primary rounded shadow_red">
                     <figure>
-                        <img src="https://placeimg.com/400/225/arch" alt="blog_logo" />
+                        <img src="https://img.freepik.com/free-photo/online-message-blog-chat-communication-envelop-graphic-icon-concept_53876-139717.jpg?w=996&t=st=1662480477~exp=1662481077~hmac=3f8d2bbffc25fe08522e34ad49db1a5be02907be016a39fdfee65526c8b131d4" alt="blog_logo" />
                     </figure>
                     <div class="card-body">
                         <div>
-                            <h2 className="card-title">title</h2>
+                            <h2 className="card-title">Blog</h2>
                         </div>
                         <div class="card-actions absolute -left-14 hover:left-2 transition bottom-5">
                             <button onClick={clickHandler} className="btn btn-secondary btn-outline rounded">Read Blog</button>
@@ -146,11 +130,26 @@ const All_Blogs = () => {
 
                 <div class="card h-80 card-compact bg-primary rounded shadow_red">
                     <figure>
-                        <img src="https://placeimg.com/400/225/arch" alt="blog_logo" />
+                        <img src="https://img.freepik.com/free-photo/online-message-blog-chat-communication-envelop-graphic-icon-concept_53876-139717.jpg?w=996&t=st=1662480477~exp=1662481077~hmac=3f8d2bbffc25fe08522e34ad49db1a5be02907be016a39fdfee65526c8b131d4" alt="blog_logo" />
                     </figure>
                     <div class="card-body">
                         <div>
-                            <h2 className="card-title">title</h2>
+                            <h2 className="card-title">Blog</h2>
+                        </div>
+                        <div class="card-actions absolute -left-14 hover:left-2 transition bottom-5">
+                            <button onClick={clickHandler} className="btn btn-secondary btn-outline rounded">Read Blog</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card h-80 card-compact bg-primary rounded shadow_red">
+                    <figure>
+                        <img src="https://img.freepik.com/free-photo/online-message-blog-chat-communication-envelop-graphic-icon-concept_53876-139717.jpg?w=996&t=st=1662480477~exp=1662481077~hmac=3f8d2bbffc25fe08522e34ad49db1a5be02907be016a39fdfee65526c8b131d4" alt="blog_logo" />
+                    </figure>
+                    <div class="card-body">
+                        <div>
+                            <h2 className="card-title">Blog</h2>
                         </div>
                         <div class="card-actions absolute -left-14 hover:left-2 transition bottom-5">
                             <button onClick={clickHandler} className="btn btn-secondary btn-outline rounded">Read Blog</button>

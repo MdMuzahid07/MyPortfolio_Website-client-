@@ -72,7 +72,7 @@ const Review = () => {
                 <div className='px-2 bg-accent'>
                     <div className="card rounded">
                         <div className="card-body h-32  shadow_red bg-primary relative">
-                            <p className='text-xs font-bold'>If a dog chews shoes whose shoes does he choose?</p>
+                            <p className='text-xs font-bold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, sit.</p>
                             <span className='absolute h-10 w-10 bg-primary -bottom-5 inset-x-1/2  rotate-45 -ml-5'></span>
                         </div>
                         <div className='mt-11 flex justify-center'>
@@ -95,7 +95,7 @@ const Review = () => {
                 <div className='px-2 bg-accent'>
                     <div className="card rounded">
                         <div className="card-body h-32  shadow_red bg-primary relative">
-                            <p className='text-xs font-bold'>If a dog chews shoes whose shoes does he choose?</p>
+                            <p className='text-xs font-bold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, sit.</p>
                             <span className='absolute h-10 w-10 bg-primary -bottom-5 inset-x-1/2  rotate-45 -ml-5'></span>
                         </div>
                         <div className='mt-11 flex justify-center'>
@@ -118,7 +118,7 @@ const Review = () => {
                 <div className='px-2 bg-accent'>
                     <div className="card rounded">
                         <div className="card-body h-32  shadow_red bg-primary relative">
-                            <p className='text-xs font-bold'>If a dog chews shoes whose shoes does he choose?</p>
+                            <p className='text-xs font-bold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, sit.</p>
                             <span className='absolute h-10 w-10 bg-primary -bottom-5 inset-x-1/2  rotate-45 -ml-5'></span>
                         </div>
                         <div className='mt-11 flex justify-center'>
@@ -140,7 +140,7 @@ const Review = () => {
                 <div className='px-2 bg-accent'>
                     <div className="card rounded">
                         <div className="card-body h-32  shadow_red bg-primary relative">
-                            <p className='text-xs font-bold'>If a dog chews shoes whose shoes does he choose?</p>
+                            <p className='text-xs font-bold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, sit.</p>
                             <span className='absolute h-10 w-10 bg-primary -bottom-5 inset-x-1/2  rotate-45 -ml-5'></span>
                         </div>
                         <div className='mt-11 flex justify-center'>
@@ -162,7 +162,7 @@ const Review = () => {
                 <div className='px-2 bg-accent'>
                     <div className="card rounded">
                         <div className="card-body h-32  shadow_red bg-primary relative">
-                            <p className='text-xs font-bold'>If a dog chews shoes whose shoes does he choose?</p>
+                            <p className='text-xs font-bold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, sit.</p>
                             <span className='absolute h-10 w-10 bg-primary -bottom-5 inset-x-1/2  rotate-45 -ml-5'></span>
                         </div>
                         <div className='mt-11 flex justify-center'>
@@ -184,7 +184,7 @@ const Review = () => {
                 <div className='px-2 bg-accent'>
                     <div className="card rounded">
                         <div className="card-body h-32  shadow_red bg-primary relative">
-                            <p className='text-xs font-bold'>If a dog chews shoes whose shoes does he choose?</p>
+                            <p className='text-xs font-bold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, sit.</p>
                             <span className='absolute h-10 w-10 bg-primary -bottom-5 inset-x-1/2  rotate-45 -ml-5'></span>
                         </div>
                         <div className='mt-11 flex justify-center'>

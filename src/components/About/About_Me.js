@@ -15,7 +15,7 @@ const About_Me = () => {
                             <h2 className='text-xl font-bold my-10'>console.log( hello world! )</h2>
                             <h2 className='text-3xl mt-7'>Hi there</h2>
                             <p className='text-md font-bold mt-4'>{`
-                            <> I'm a Web Developer, Works with MERN Stack, Front-end ,Back-end Development, and WordPress Website Design. My future goal is to be a full-stack native app developer. and I want to be a master in JavaScript.My first rule is, to be a good person,then a good Developer. </>
+                            <> I'm a passionate Web Developer, Works with MERN Stack, Front-end, Back-end Development, and WordPress Website Design. I'm a self-learned hard working and motivated person. My first rule is, to be a good person, then a good Developer. </>
                             `}</p>
 
                             <div className='mt-10'>
