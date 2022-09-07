@@ -138,7 +138,7 @@ const Skills = () => {
 
                         <div>
                             <div className="shadow_red rounded flex justify-center items-center p-2 md:p-0">
-                                <img src="https://i.ibb.co/gdD8jRK/python-logo.png" className='w-auto' alt="python" />
+                                <img src="https://i.ibb.co/sWxxLHw/JWT-Token.png" className='w-auto' alt="JWT_token" />
                             </div>
                         </div>
 
